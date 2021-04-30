@@ -1,0 +1,29 @@
+.user {
+  width: 80%;
+  padding: 10px 0;
+  text-align: center;
+  border: solid 1px rgb(119, 119, 119);
+  border-radius: 20px;
+  margin: auto;
+  color: white;
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+.user__container-button {
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user__button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 16px;
+  line-height: 18px;
+  background-color: #ab81f1;
+}
