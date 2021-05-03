@@ -19,3 +19,8 @@
   margin-left: 10px;
   color: white;
 }
+@media screen and (max-width: 800px){
+  .main__container {
+    grid-template-columns: auto;
+  } 
+}

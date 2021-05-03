@@ -1,5 +1,5 @@
 .user {
-  width: 80%;
+  width: 90%;
   padding: 10px 0;
   text-align: center;
   border: solid 1px rgb(119, 119, 119);
@@ -16,7 +16,7 @@
   width: 90%;
   margin: 20px auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .user__button {

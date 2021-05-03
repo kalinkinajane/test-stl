@@ -41,6 +41,8 @@ function Form({ onUpdateUser, user }) {
           value={values.name || ""}
           placeholder="Имя"
           onChange={handleChange}
+          minLength="2"
+          maxLength="30"
         />
         <input
           className="form__item user__phone"
