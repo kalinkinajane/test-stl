@@ -65,10 +65,10 @@ function Form({ onUpdateUser, user }) {
           <select
             className="form__select"
             name="country"
-            value={values.country || ""}
+            value={values.country || "Страна:"}
             onChange={handleChange}
           >
-            <option selected>Страна:</option>
+            <option  value="Страна:">Страна:</option>
             <option value="Австралия">Австралия</option>
             <option value="Россия">Россия</option>
             <option value="США">США</option>
