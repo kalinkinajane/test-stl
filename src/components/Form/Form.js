@@ -9,15 +9,13 @@ function Form({ onUpdateUser, user }) {
     country: "",
     age: "",
   });
+ 
 
   React.useEffect(() => {
     setValues(user);
   }, [user]);
 
-  function handleChange(event) {
-    const target = event.target;
-    const name = target.name;
-    const value = target.value;
+  function handleChange({ target: { name, value } }) {
     setValues({ ...values, [name]: value });
   }
   function handleSubmit(e) {

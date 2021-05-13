@@ -18,7 +18,7 @@ function UserInfo(props) {
       <p>Страна: {props.user.country}</p>
       <p>Возраст: {props.user.age}</p>
       <div className="user__container-button">
-        <Link to="/form">
+        <Link to="/edit/:id">
           <button onClick={handleClick} className="user__button">
             Обновить
           </button>
